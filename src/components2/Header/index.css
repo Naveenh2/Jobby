@@ -1,0 +1,18 @@
+.container {
+  background-color: rgb(10, 1, 19);
+}
+.routes {
+  display: flex;
+  justify-content: space-between;
+}
+.image {
+  width: 70px;
+  height: 30px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(10, 1, 19);
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,141 @@
+/* Base Styles */
+.all-jobs-container {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, sans-serif;
+}
+
+.side-bar-container {
+  background-color: #f1f5f9;
+  padding: 16px;
+  width: 25%;
+  min-height: 100vh;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.jobs-container {
+  flex: 1;
+  padding: 16px;
+}
+
+.hr-line {
+  border: 0;
+  border-top: 1px solid #d7dfe9;
+  margin: 16px 0;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #334155;
+  margin-bottom: 8px;
+}
+
+.check-boxes-container,
+.radio-button-container,
+.ul-job-items-container {
+  list-style: none;
+  padding: 0;
+}
+
+.li-container {
+  margin-bottom: 8px;
+}
+
+.label {
+  margin-left: 8px;
+  font-size: 16px;
+  color: #475569;
+}
+
+.search-input {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #d7dfe9;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.search-button {
+  background-color: #0b69ff;
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-icon {
+  font-size: 16px;
+}
+
+/* Responsive Styles */
+
+/* Small screens (mobile) */
+@media (max-width: 576px) {
+  .all-jobs-container {
+    flex-direction: column;
+  }
+
+  .side-bar-container {
+    width: 100%;
+    min-height: auto;
+    margin-bottom: 16px;
+  }
+
+  .jobs-container {
+    padding: 8px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .search-input {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .search-button {
+    width: 100%;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .side-bar-container {
+    width: 30%;
+  }
+
+  .text {
+    font-size: 17px;
+  }
+
+  .search-input {
+    width: 75%;
+  }
+
+  .search-button {
+    width: auto;
+  }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 769px) {
+  .side-bar-container {
+    width: 20%;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+
+  .search-input {
+    width: 60%;
+  }
+
+  .search-button {
+    width: auto;
+  }
+}

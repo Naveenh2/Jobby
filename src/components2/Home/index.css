@@ -1,0 +1,17 @@
+.container1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  padding: 20px;
+}
+.blue {
+  color: white;
+  background-color: blue;
+  border: none;
+  height: 20px;
+  width: 70px;
+  border-radius: 10px;
+}

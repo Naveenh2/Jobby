@@ -1,0 +1,50 @@
+.containerjobs {
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-wrap: auto;
+  color: white;
+  background-color: rgb(17, 1, 27);
+  background-size:cover;
+  height: 100vh;
+  flex-direction: row;
+}
+.leftpart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  width: 20vw;
+}
+.rightpart {
+  width: 80vw;
+  height: 100vh;
+}
+.filters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.color {
+  color: white;
+}
+.profile {
+  color: blue;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.containerflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

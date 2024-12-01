@@ -1,0 +1,17 @@
+.mentions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mentions1 {
+  display: flex;
+  align-items: center;
+}
+.card {
+  color: white;
+  text-decoration: none;
+  padding: 30px;
+  border-radius: 30px;
+  margin: 20px;
+  background-color: rgb(111, 106, 106);
+}
