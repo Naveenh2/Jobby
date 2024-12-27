@@ -39,7 +39,7 @@ const SimilarJobs = props => {
     companyLogoUrl,
   } = similarJobDetails
   return (
-    <div className="container4">
+    <div className='container4'>
       <h1>Description</h1>
       <img src={companyLogoUrl} alt={id} />
       <p>{location}</p>

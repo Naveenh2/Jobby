@@ -1,3 +1,4 @@
-filter-group-container{
-    width:30vw;
+.filters-group-container {
+  padding: 20px;
+  width: 30vw;
 }

@@ -1,11 +1,14 @@
 .similar-job-item {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
-  border: 1px solid #d3d3d3;
-  border-radius: 8px;
-  padding: 16px;
-  margin: 12px 0;
-  background-color: #fff;
+  list-style-type: none;
+  background-color: #202020;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  margin-top: 10px;
 }
 
 .logo-title-location-container {

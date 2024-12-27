@@ -117,7 +117,6 @@ const FiltersGroup = props => {
 
   return (
     <div className="filters-group-container">
-      {renderSearchInput()}
       <ProfileCard />
       <hr className="horizontal-line" />
       {renderTypeOfEmployment()}
